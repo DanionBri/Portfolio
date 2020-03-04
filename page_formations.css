@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    font-family: 'Roboto Mono', serif;
+    
+}
+/*MISE EN PLACE DE LA BARRE HAUT DE PAGE*/
+#haut_de_page{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: 25273E;
+    font-size: 20px;
+    display: flex;
+    opacity: 0.90;
+}
+#haut_de_page a{
+    
+    text-decoration: none;
+    color: 635656;
+
+}
+#haut_de_page a:hover{
+    color: white;
+    text-shadow: 40px 40px 40px #000000;
+}
+/*MISE EN PLACE DU LOGO     */
+#logo{
+    z-index: 10;
+    position: relative;
+    right: 10px;
+    bottom: 25px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: -350px;
+}
+/*MISE EN PLACE DU BACCKGROUND*/
+#Section1{
+    display: flex;
+    flex-direction: column;
+    background-image: url(Image/brooke-cagle-school.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+/*MISE EN PLACE DU CONTENU*/
+h1{
+    padding-top: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: normal;
+}
+
+#Section1 p{
+    color: white;
+}
+#Bachelor{
+    margin-top: 200px;
+    box-shadow: 0px 0px 57px 31px rgba(31,30,31,1);
+    text-align: center;
+    line-height: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+#Bac{
+    margin-top: 100px;
+    box-shadow: 0px 0px 57px 31px rgba(31,30,31,1);
+    text-align: center;
+    line-height: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}

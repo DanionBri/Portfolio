@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    font-family: 'Roboto Mono', serif;
+    
+}
+/*MISE EN PLACE DE LA BARRE HAUT DE PAGE*/
+#haut_de_page{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: 25273E;
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+    opacity: 0.95;
+}
+#haut_de_page a{
+    
+    text-decoration: none;
+    color: 949292;
+
+}
+#haut_de_page a:hover{
+    color: white;
+    text-shadow: 40px 40px 40px #000000;
+}
+/*MISE EN PLACE DU LOGO     */
+#logo{
+    z-index: 10;
+    position: relative;
+    right: 10px;
+    bottom: 25px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: -350px;
+}
+/*MISE EN PLACE DU BACKGROUND*/
+#Section1{
+    display: flex;
+    flex-direction: column;
+    background-image: url(Image/mrajan-grabowski-contact.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 105vh;
+}
+/*MISE EN PLACE DU CONTENU*/
+#Section2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+#Section2 img{
+    width: 20px;
+    height: 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: normal;
+}
+#titre p{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+    margin-top: 30px;
+/*}    CREATION DU FORMULAIRE    */
+}
+.formulaire{
+    font-family: Normal;
+    width: 500px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+
+
+.formulaire input[type="text"],
+.formulaire input[type="date"],
+.formulaire input[type="email"],
+.formulaire textarea,
+.formulaire select 
+{
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 45px;
+}
+
+.formulaire textarea{
+    resize:none;
+    overflow: hidden;
+}
+
+.formulaire input[type="button"], 
+.formulaire input[type="submit"]{
+    background-color: #25273E;
+    border:3px solid #FFFFFF;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Normal;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*   PARTIE PLUS DE DETAILS    */
+h2{
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+}
+#reseaux a{
+    text-decoration: none;
+    color: white;
+}
+.logo img{
+    margin-top: 10px;
+    margin-right:15px;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+}
+#reseaux{
+    display: flex;
+    flex-direction: row;
+}
+/* ESPACE ENTRE LOGO ET LINKEDIN */
+#details a{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    font-family: 'Roboto Mono', serif;
+    
+}
+/*MISE EN PLACE DE LA BARRE HAUT DE PAGE*/
+#haut_de_page{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: 25273E;
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+}
+#haut_de_page a{
+    
+    text-decoration: none;
+    color: 949292;
+
+}
+#haut_de_page a:hover{
+    color: white;
+    text-shadow: 40px 40px 40px #000000;
+}
+/*MISE EN PLACE DU LOGO     */
+#logo{
+    position: relative;
+    right: 10px;
+    bottom: 30px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: -350px;
+}
+/*MISE EN PLACE PHOTO A GAUCHE*/
+#photo_perso img{
+    height: 100vh;
+}
+/*MISE EN PLACE DU CONTENU*/
+#contenu{
+    text-align: center;
+    color: white;
+    line-height: 
+}
+h1{
+    height: 300px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+/*MISE EN PLACE DU BACKGROUND*/
+#Section1{
+    display: flex;
+    flex-direction: row;
+    background-image: url(Image/thom-holmes-About.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity:0,20;
+    width: 100%;
+    height: 100vh;
+}
+/*MISE EN PAGE DU CONTENU*/
+#contenu{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+h2{
+    margin-top: -200px;
+    font-size: 30px;
+    line-height: 150px;
+    text-shadow: 5px 5px 5px black;
+    
+}
+#text #ecole{
+    line-height: 50px;
+    text-shadow: 5px 5px 5px black;
+     
+}
+#paragraphe{
+    line-height: 30px;
+    text-shadow: 5px 5px 5px black;
+}
+
+/*CREATION DU BOUTON DE TELECHARGEMENT*/
+#bouton{
+    margin-top: 30px;
+	border-radius: 20px;
+	border: none;
+	background-color: 25273E;
+	color: white;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 15px 35px;
+    height: 60px;
+}
+#bouton:hover {
+    background-color: 25273E; 
+	color: white;
+	transition-duration: 0.7s;
+	border:2px solid #FFFFFF;
+}
+#bouton a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: aqua;
+}
