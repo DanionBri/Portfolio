@@ -48,22 +48,28 @@
     height: 100vh;
 }
 /*MISE EN PLACE DU CONTENU*/
-#competences{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-size: 30px;
-}
 #titre{
     color: white;
     text-align: center;
+    text-decoration-line: underline;
     font-size: 25px;
     padding-top: 20px;
     font-weight: 100;
 }
-/*MENTIONS LEGALES*/
-#mentions a{
+#competences{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 250px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 0px 40px ;
+}
+/* Footer RGPD*/
+footer{
+    background-color: grey;
+}
+footer a{
+    display: flex;
+    justify-content: center;
     text-decoration: none;
-    text-align: center;
-    font-size: 20px;
 }

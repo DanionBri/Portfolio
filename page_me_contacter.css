@@ -63,6 +63,7 @@ h1{
     justify-content: center;
     padding-top: 10px;
     font-weight: normal;
+    text-decoration-line: underline;
 }
 #titre p{
     display: flex;
@@ -155,4 +156,13 @@ h2{
 #details a{
     display: flex;
     justify-content: space-around;
+}
+/* Footer RGPD*/
+footer{
+    background-color: grey;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }

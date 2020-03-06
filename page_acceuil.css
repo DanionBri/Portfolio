@@ -88,3 +88,12 @@
     color: white;
     top:540px;
 }
+/* Footer RGPD*/
+footer{
+    background-color: grey;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}

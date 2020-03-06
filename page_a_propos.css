@@ -49,6 +49,7 @@ h1{
     height: 300px;
     padding-top: 10px;
     font-weight: normal;
+    text-decoration-line: underline;
 }
 /*MISE EN PLACE DU BACKGROUND*/
 #Section1{
@@ -114,4 +115,13 @@ h2{
     text-decoration: none;
     font-size: 50px;
     background-color: aqua;
+}
+/* Footer RGPD*/
+footer{
+    background-color: grey;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }

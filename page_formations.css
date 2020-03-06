@@ -52,6 +52,7 @@ h1{
     color: #FFFFFF;
     text-align: center;
     font-weight: normal;
+    text-decoration-line: underline;
 }
 
 #Section1 p{
@@ -73,4 +74,13 @@ h1{
     line-height: 50px;
     margin-left: 250px;
     margin-right: 250px;
+}
+/* Footer RGPD*/
+footer{
+    background-color: grey;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
